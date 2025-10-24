@@ -1,0 +1,26 @@
+{
+  "game": {
+    "name": "DungeonForge",
+    "version": "0.1.0",
+    "max_players": 4,
+    "difficulty_levels": ["easy", "normal", "hard", "nightmare"]
+  },
+  "character": {
+    "starting_level": 1,
+    "max_level": 50,
+    "starting_health": 100,
+    "starting_mana": 50
+  },
+  "experience": {
+    "base_xp_requirement": 100,
+    "xp_multiplier": 1.5,
+    "boss_xp_bonus": 2.0
+  },
+  "dungeon": {
+    "min_rooms": 5,
+    "max_rooms": 15,
+    "trap_chance": 0.3,
+    "treasure_chance": 0.4
+  }
+}
+
